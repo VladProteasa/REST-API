@@ -26,8 +26,12 @@ Finally I decided to add rate limits to the authentication system and to the req
 * By default the API will listen on port 3000.
 * I chose to use MongoDB to store product data and user data.
 * On the server the passwords are stored as hashes.
-* In the .env file we have the private key for JWT and the MongoDB link.
 * I tested the API using Postman.
+* In the .env file we have the private key for JWT and the MongoDB link.
+```sh
+JWT_KEY=
+DB_CONNECT=
+```
 
 ## Endpoints
 
